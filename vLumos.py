@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
 #!/bin/python3
 # author: bryan kanu
+# https://developers.virustotal.com/reference/analyses-object
 # https://developers.virustotal.com/reference/file-info
 # https://developers.virustotal.com/reference/files
 from datetime import datetime, date, time, timezone
 from getpass import getpass
 from pathlib import Path
-import argparse, asyncio
+import argparse, asyncio, json
 import requests, sys, traceback
 
 deflate = lambda lst: list(filter((lambda l: l != b""),lst))
@@ -25,10 +26,11 @@ VT_SIGNUP_URL = "https://www.virustotal.com/gui/join-us"
 MISSING_API_KEY_MESSAGE = f"Try again with a valid VirusTotal API key (visit {VT_SIGNUP_URL} to get started)"
 STATUS = 0
 
-parser = argparse.ArgumentParser(prog=f"vLumos", description="Shine a light on suspicious files on your system")
+prog_description = "Shine a light on suspicious files on your system, or urls you stumble across on the web"
+parser = argparse.ArgumentParser(prog=f"vLumos", description=prog_description)
 parser.add_argument("-k", "--key", dest="m_api_key", action="store_true", help="VirusTotal API Key")
 group = parser.add_mutually_exclusive_group(required=True)
-group.add_argument("--hash", dest="hash", metavar="FILE HASH", 
+group.add_argument("--search", dest="search", metavar="SEARCH_VALUE", 
     type=str, help="A single hash to search VirusTotal for")
 group.add_argument("-i", "--input-file", dest="input_file", metavar="INPUT FILE",
     type=Path, help="Hashified hashes (file containing one or more [FILE_NAME FILE_HASH] pairs) to search VirusTotal for")
@@ -69,12 +71,12 @@ async def main():
                     print(f"[x] {MISSING_API_KEY_MESSAGE}")
                     return 1
         else:
-            file_obj = {"file_hash":argv.hash, "file_name":argv.hash}
+            search = {"obj":argv.search}
             if not M_API_KEY:
                 set_vt_api_key()
             if M_API_KEY:
                 print("[*] Rate limit requests disabled")
-                get_and_write_file_info(**file_obj)
+                get_and_write_search_info(**search)
             else:
                 print(f"[x] {MISSING_API_KEY_MESSAGE}")
                 return 1
@@ -95,38 +97,30 @@ async def rate_limit_requests():
         if hourly_limit['user']['used'] != hourly_limit['user']['allowed']:
             for file_hash_line in file_hashes:
                 r_file_hash_line = file_hash_line[::-1].partition(b" ")
-                file_name = r_file_hash_line[2][::-1].decode("ascii")
-                file_hash = r_file_hash_line[0][::-1].decode("ascii")
+                file_name = r_file_hash_line[2][::-1].decode("utf-8")
+                object = r_file_hash_line[0][::-1].decode("utf-8")
                 await asyncio.sleep(rate)
-                file_obj = {"file_hash":file_hash, "file_name":file_name}
-                get_and_write_file_info(**file_obj)
+                search = {"obj":object}
+                get_and_write_search_info(**search)
                 if STATUS != 0:
                     break
-                update_status_file(file_hash_line.decode("ascii"))
+                update_status_file(file_hash_line.decode("utf-8"))
     except:
         print(f"[x] {traceback.format_exc()}")
         STATUS = 3
 
-def get_and_write_file_info(**file_obj):
+def get_and_write_search_info(**item):
     global STATUS
-    url = VT_API_URL + f"files/{file_obj['file_hash']}"
+    url = VT_API_URL + f"search?query={item['obj']}"
     try:
-        response = get_url(url)
-        if not isinstance(response,dict):
-            response = response.json()
-        vt_name = ""; vt_stats = None; vt_reputation = None
-        try:
-            vt_name = response['data']['attributes']['names'][-1]
-            vt_stats = response['data']['attributes']['last_analysis_stats']
-            vt_reputation = response['data']['attributes']['reputation']
-        except:
-            vt_name = file_obj["file_name"]
-
-        with open(vLUMOS_ANALYSIS_REPORT_FNAME,"a") as report_fd:
-            report_fd.write(f"[*] file: {vt_name}")
-            if vt_stats:
-                write_items_to_fd(**{"fd":report_fd,"description":"stats","dictionary":vt_stats})
-            report_fd.write(f"\n[*]\treputation: {vt_reputation}\n\n")
+        response = get_url(url)        
+        report_fd = Path(vLUMOS_ANALYSIS_REPORT_FNAME)
+        if report_fd.exists() and report_fd.is_file():
+            tmp = json.loads(report_fd.read_text())
+            tmp.append(response)
+            report_fd.write_text(json.dumps(tmp,indent=4))
+        else:
+            report_fd.write_text(json.dumps([response],indent=4))                        
     except:
         print(f"[x] {traceback.format_exc()}")
         STATUS = -1
@@ -156,7 +150,17 @@ def get_url(url,header=None):
     try:
         if header:
             M_HEADER = header
-        response = requests.get(url,headers=M_HEADER).json()
+        response = requests.get(url,headers=M_HEADER)
+        if hasattr(response,"json"):
+            try:
+                response = response.json()
+            except:
+                if hasattr(response,"_content"):
+                    response = response._content.decode("utf-8")
+                elif hasattr(response,"text"):
+                    resposne = response.text
+        elif hasattr(response,"text"):
+            response = response.text
     except:
         print(f"[x] {traceback.format_exc()}")
     else:
@@ -193,14 +197,6 @@ def update_status_file(line):
     try:
         with open(vLUMOS_ANALYSIS_STATUS_FNAME,"a") as fd:
             fd.write(f"{line}\n")
-    except:
-        print(f"[x] {traceback.format_exc()}")
-
-def write_items_to_fd(**obj):
-    try:
-        obj["fd"].write(f"\n[*]\t{obj['description']}:")
-        for k,v in obj["dictionary"].items():
-            obj["fd"].write(f"\n[*]\t\t{k}: {v}")
     except:
         print(f"[x] {traceback.format_exc()}")
 
