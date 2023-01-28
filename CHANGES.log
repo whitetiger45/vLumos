@@ -1,0 +1,13 @@
+vLumos Change Tracker:
+-------------------------
+Release: v2.0
+Date: 2023.27.1
+
+### Changes
+2023.27.1:
+
+    - move vLumos.py to src
+    - add evocatio to src directory
+    - change suffix of output files to ".json"
+    - change example file suffixes to ".json"
+    - add graphs as endpoint for single search
