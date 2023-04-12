@@ -1,0 +1,260 @@
+[
+    {
+        "meta": {
+            "cursor": "CtIBChEKBGRhdGUSCQjav4eh4Mn4AhK4AWoRc352aXJ1c3RvdGFsY2xvdWRyogELEgZTYW1wbGUiQDU5ZDM2ZDAzZmRjYWIxMWU2MGM4OWYwMWVhYzMzYWY5N2RhOTNhZDAyM2VlNWQyNWJiZTFmOTUwYzA4NDNiMzIMCxIHQ29tbWVudCJJNTlkMzZkMDNmZGNhYjExZTYwYzg5ZjAxZWFjMzNhZjk3ZGE5M2FkMDIzZWU1ZDI1YmJlMWY5NTBjMDg0M2IzMi0yYjRiNWYwNwwYACAB"
+        },
+        "data": [
+            {
+                "attributes": {
+                    "date": 1679674289,
+                    "text": "YARA Signature Match - THOR APT Scanner\n\nRULE: MAL_APK_LNX_Android_NSO_Pegasus_Jul21_1\nRULE_SET: Livehunt - Default37 Indicators \nRULE_TYPE: VALHALLA rule feed only \u26a1\nRULE_LINK: https://valhalla.nextron-systems.com/info/rule/MAL_APK_LNX_Android_NSO_Pegasus_Jul21_1\nDESCRIPTION: Detects NSO Pegasus samples - file inject\nREFERENCE: https://twitter.com/vxunderground/status/1418207502974525441\nRULE_AUTHOR: Florian Roth\n\nDetection Timestamp: 2023-03-24 16:17\nAV Detection Ratio: \ud83d\udfe0 1 / 61\n\nUse these tags to search for similar matches: #apk #lnx #nso #pegasus #mal_apk_lnx_android_nso_pegasus_jul21_1\nMore information: https://www.nextron-systems.com/notes-on-virustotal-matches/\n",
+                    "votes": {
+                        "positive": 0,
+                        "abuse": 0,
+                        "negative": 0
+                    },
+                    "html": "YARA Signature Match - THOR APT Scanner<br /><br />RULE: MAL_APK_LNX_Android_NSO_Pegasus_Jul21_1<br />RULE_SET: Livehunt - Default37 Indicators <br />RULE_TYPE: VALHALLA rule feed only \u26a1<br />RULE_LINK: https://valhalla.nextron-systems.com/info/rule/MAL_APK_LNX_Android_NSO_Pegasus_Jul21_1<br />DESCRIPTION: Detects NSO Pegasus samples - file inject<br />REFERENCE: https://twitter.com/vxunderground/status/1418207502974525441<br />RULE_AUTHOR: Florian Roth<br /><br />Detection Timestamp: 2023-03-24 16:17<br />AV Detection Ratio: \ud83d\udfe0 1 / 61<br /><br />Use these tags to search for similar matches: #apk #lnx #nso #pegasus #mal_apk_lnx_android_nso_pegasus_jul21_1<br />More information: https://www.nextron-systems.com/notes-on-virustotal-matches/<br />",
+                    "tags": [
+                        "apk",
+                        "lnx",
+                        "nso",
+                        "pegasus",
+                        "mal_apk_lnx_android_nso_pegasus_jul21_1"
+                    ]
+                },
+                "type": "comment",
+                "id": "f-b7a411f4c4cc56c2dfeb5a10e778e2605e196763e31cb9ae8c4e8fd4aa312276-42a33044",
+                "links": {
+                    "self": "https://www.virustotal.com/api/v3/comments/f-b7a411f4c4cc56c2dfeb5a10e778e2605e196763e31cb9ae8c4e8fd4aa312276-42a33044"
+                }
+            },
+            {
+                "attributes": {
+                    "date": 1670414534,
+                    "text": "YARA Signature Match - THOR APT Scanner\n\nRULE: MAL_APK_LNX_Archive_Android_NSO_Pegasus_Jul21_2\nRULE_SET: Livehunt - Default28 Indicators \nRULE_TYPE: VALHALLA rule feed only \u26a1\nRULE_LINK: https://valhalla.nextron-systems.com/info/rule/MAL_APK_LNX_Archive_Android_NSO_Pegasus_Jul21_2\nDESCRIPTION: Detects NSO Pegasus samples\nREFERENCE: https://twitter.com/vxunderground/status/1418207502974525441\nRULE_AUTHOR: Florian Roth\n\nDetection Timestamp: 2022-12-07 12:08\nAV Detection Ratio: \ud83d\udfe2 32 / 67\n\nUse these tags to search for similar matches: #apk #lnx #archive #nso #pegasus #mal_apk_lnx_archive_android_nso_pegasus_jul21_2\nMore information: https://www.nextron-systems.com/notes-on-virustotal-matches/\n",
+                    "votes": {
+                        "positive": 0,
+                        "abuse": 0,
+                        "negative": 0
+                    },
+                    "html": "YARA Signature Match - THOR APT Scanner<br /><br />RULE: MAL_APK_LNX_Archive_Android_NSO_Pegasus_Jul21_2<br />RULE_SET: Livehunt - Default28 Indicators <br />RULE_TYPE: VALHALLA rule feed only \u26a1<br />RULE_LINK: https://valhalla.nextron-systems.com/info/rule/MAL_APK_LNX_Archive_Android_NSO_Pegasus_Jul21_2<br />DESCRIPTION: Detects NSO Pegasus samples<br />REFERENCE: https://twitter.com/vxunderground/status/1418207502974525441<br />RULE_AUTHOR: Florian Roth<br /><br />Detection Timestamp: 2022-12-07 12:08<br />AV Detection Ratio: \ud83d\udfe2 32 / 67<br /><br />Use these tags to search for similar matches: #apk #lnx #archive #nso #pegasus #mal_apk_lnx_archive_android_nso_pegasus_jul21_2<br />More information: https://www.nextron-systems.com/notes-on-virustotal-matches/<br />",
+                    "tags": [
+                        "apk",
+                        "lnx",
+                        "archive",
+                        "nso",
+                        "pegasus",
+                        "mal_apk_lnx_archive_android_nso_pegasus_jul21_2"
+                    ]
+                },
+                "type": "comment",
+                "id": "f-b5a189e90227801ac042989f6b0e5abf6f696692ea2bf8892b9d76095cae0286-90cf27ee",
+                "links": {
+                    "self": "https://www.virustotal.com/api/v3/comments/f-b5a189e90227801ac042989f6b0e5abf6f696692ea2bf8892b9d76095cae0286-90cf27ee"
+                }
+            },
+            {
+                "attributes": {
+                    "date": 1670414521,
+                    "text": "YARA Signature Match - THOR APT Scanner\n\nRULE: MAL_APK_LNX_Archive_Android_NSO_Pegasus_Jul21_2\nRULE_SET: Livehunt - Default28 Indicators \nRULE_TYPE: VALHALLA rule feed only \u26a1\nRULE_LINK: https://valhalla.nextron-systems.com/info/rule/MAL_APK_LNX_Archive_Android_NSO_Pegasus_Jul21_2\nDESCRIPTION: Detects NSO Pegasus samples\nREFERENCE: https://twitter.com/vxunderground/status/1418207502974525441\nRULE_AUTHOR: Florian Roth\n\nDetection Timestamp: 2022-12-07 12:08\nAV Detection Ratio: \ud83d\udfe2 30 / 67\n\nUse these tags to search for similar matches: #apk #lnx #archive #nso #pegasus #mal_apk_lnx_archive_android_nso_pegasus_jul21_2\nMore information: https://www.nextron-systems.com/notes-on-virustotal-matches/\n",
+                    "votes": {
+                        "positive": 0,
+                        "abuse": 0,
+                        "negative": 0
+                    },
+                    "html": "YARA Signature Match - THOR APT Scanner<br /><br />RULE: MAL_APK_LNX_Archive_Android_NSO_Pegasus_Jul21_2<br />RULE_SET: Livehunt - Default28 Indicators <br />RULE_TYPE: VALHALLA rule feed only \u26a1<br />RULE_LINK: https://valhalla.nextron-systems.com/info/rule/MAL_APK_LNX_Archive_Android_NSO_Pegasus_Jul21_2<br />DESCRIPTION: Detects NSO Pegasus samples<br />REFERENCE: https://twitter.com/vxunderground/status/1418207502974525441<br />RULE_AUTHOR: Florian Roth<br /><br />Detection Timestamp: 2022-12-07 12:08<br />AV Detection Ratio: \ud83d\udfe2 30 / 67<br /><br />Use these tags to search for similar matches: #apk #lnx #archive #nso #pegasus #mal_apk_lnx_archive_android_nso_pegasus_jul21_2<br />More information: https://www.nextron-systems.com/notes-on-virustotal-matches/<br />",
+                    "tags": [
+                        "apk",
+                        "lnx",
+                        "archive",
+                        "nso",
+                        "pegasus",
+                        "mal_apk_lnx_archive_android_nso_pegasus_jul21_2"
+                    ]
+                },
+                "type": "comment",
+                "id": "f-a04802461a997f4847aca8db2859c58d6c84969058303c471cea06815bd48e9a-049d461d",
+                "links": {
+                    "self": "https://www.virustotal.com/api/v3/comments/f-a04802461a997f4847aca8db2859c58d6c84969058303c471cea06815bd48e9a-049d461d"
+                }
+            },
+            {
+                "attributes": {
+                    "date": 1669293606,
+                    "text": "YARA Signature Match - THOR APT Scanner\n\nRULE: MAL_APK_LNX_Archive_Android_NSO_Pegasus_Jul21_2\nRULE_SET: Livehunt - Default27 Indicators \nRULE_TYPE: VALHALLA rule feed only \u26a1\nRULE_LINK: https://valhalla.nextron-systems.com/info/rule/MAL_APK_LNX_Archive_Android_NSO_Pegasus_Jul21_2\nDESCRIPTION: Detects NSO Pegasus samples\nREFERENCE: https://twitter.com/vxunderground/status/1418207502974525441\nRULE_AUTHOR: Florian Roth\n\nDetection Timestamp: 2022-11-24 12:46\nAV Detection Ratio: \ud83d\udfe2 31 / 67\n\nUse these tags to search for similar matches: #apk #lnx #archive #nso #pegasus #mal_apk_lnx_archive_android_nso_pegasus_jul21_2\nMore information: https://www.nextron-systems.com/notes-on-virustotal-matches/\n",
+                    "votes": {
+                        "positive": 0,
+                        "abuse": 0,
+                        "negative": 0
+                    },
+                    "html": "YARA Signature Match - THOR APT Scanner<br /><br />RULE: MAL_APK_LNX_Archive_Android_NSO_Pegasus_Jul21_2<br />RULE_SET: Livehunt - Default27 Indicators <br />RULE_TYPE: VALHALLA rule feed only \u26a1<br />RULE_LINK: https://valhalla.nextron-systems.com/info/rule/MAL_APK_LNX_Archive_Android_NSO_Pegasus_Jul21_2<br />DESCRIPTION: Detects NSO Pegasus samples<br />REFERENCE: https://twitter.com/vxunderground/status/1418207502974525441<br />RULE_AUTHOR: Florian Roth<br /><br />Detection Timestamp: 2022-11-24 12:46<br />AV Detection Ratio: \ud83d\udfe2 31 / 67<br /><br />Use these tags to search for similar matches: #apk #lnx #archive #nso #pegasus #mal_apk_lnx_archive_android_nso_pegasus_jul21_2<br />More information: https://www.nextron-systems.com/notes-on-virustotal-matches/<br />",
+                    "tags": [
+                        "apk",
+                        "lnx",
+                        "archive",
+                        "nso",
+                        "pegasus",
+                        "mal_apk_lnx_archive_android_nso_pegasus_jul21_2"
+                    ]
+                },
+                "type": "comment",
+                "id": "f-25675f3bc48de04684319b756aa41db56872d5309b3b4f37f4f3d828bfac41c1-29b34ec4",
+                "links": {
+                    "self": "https://www.virustotal.com/api/v3/comments/f-25675f3bc48de04684319b756aa41db56872d5309b3b4f37f4f3d828bfac41c1-29b34ec4"
+                }
+            },
+            {
+                "attributes": {
+                    "date": 1669219295,
+                    "text": "YARA Signature Match - THOR APT Scanner\n\nRULE: MAL_APK_LNX_Archive_Android_NSO_Pegasus_Jul21_2\nRULE_SET: Livehunt - Default27 Indicators \nRULE_TYPE: VALHALLA rule feed only \u26a1\nRULE_LINK: https://valhalla.nextron-systems.com/info/rule/MAL_APK_LNX_Archive_Android_NSO_Pegasus_Jul21_2\nDESCRIPTION: Detects NSO Pegasus samples\nREFERENCE: https://twitter.com/vxunderground/status/1418207502974525441\nRULE_AUTHOR: Florian Roth\n\nDetection Timestamp: 2022-11-23 16:08\nAV Detection Ratio: \ud83d\udfe2 30 / 67\n\nUse these tags to search for similar matches: #apk #lnx #archive #nso #pegasus #mal_apk_lnx_archive_android_nso_pegasus_jul21_2\nMore information: https://www.nextron-systems.com/notes-on-virustotal-matches/\n",
+                    "votes": {
+                        "positive": 0,
+                        "abuse": 0,
+                        "negative": 0
+                    },
+                    "html": "YARA Signature Match - THOR APT Scanner<br /><br />RULE: MAL_APK_LNX_Archive_Android_NSO_Pegasus_Jul21_2<br />RULE_SET: Livehunt - Default27 Indicators <br />RULE_TYPE: VALHALLA rule feed only \u26a1<br />RULE_LINK: https://valhalla.nextron-systems.com/info/rule/MAL_APK_LNX_Archive_Android_NSO_Pegasus_Jul21_2<br />DESCRIPTION: Detects NSO Pegasus samples<br />REFERENCE: https://twitter.com/vxunderground/status/1418207502974525441<br />RULE_AUTHOR: Florian Roth<br /><br />Detection Timestamp: 2022-11-23 16:08<br />AV Detection Ratio: \ud83d\udfe2 30 / 67<br /><br />Use these tags to search for similar matches: #apk #lnx #archive #nso #pegasus #mal_apk_lnx_archive_android_nso_pegasus_jul21_2<br />More information: https://www.nextron-systems.com/notes-on-virustotal-matches/<br />",
+                    "tags": [
+                        "apk",
+                        "lnx",
+                        "archive",
+                        "nso",
+                        "pegasus",
+                        "mal_apk_lnx_archive_android_nso_pegasus_jul21_2"
+                    ]
+                },
+                "type": "comment",
+                "id": "f-f0efd5d9d4010dd803a00cc6040076c0ae486015bd955cad82be583ba7778c5a-fd10a747",
+                "links": {
+                    "self": "https://www.virustotal.com/api/v3/comments/f-f0efd5d9d4010dd803a00cc6040076c0ae486015bd955cad82be583ba7778c5a-fd10a747"
+                }
+            },
+            {
+                "attributes": {
+                    "date": 1669219263,
+                    "text": "YARA Signature Match - THOR APT Scanner\n\nRULE: MAL_APK_LNX_Archive_Android_NSO_Pegasus_Jul21_2\nRULE_SET: Livehunt - Default27 Indicators \nRULE_TYPE: VALHALLA rule feed only \u26a1\nRULE_LINK: https://valhalla.nextron-systems.com/info/rule/MAL_APK_LNX_Archive_Android_NSO_Pegasus_Jul21_2\nDESCRIPTION: Detects NSO Pegasus samples\nREFERENCE: https://twitter.com/vxunderground/status/1418207502974525441\nRULE_AUTHOR: Florian Roth\n\nDetection Timestamp: 2022-11-23 16:07\nAV Detection Ratio: \ud83d\udfe2 29 / 67\n\nUse these tags to search for similar matches: #apk #lnx #archive #nso #pegasus #mal_apk_lnx_archive_android_nso_pegasus_jul21_2\nMore information: https://www.nextron-systems.com/notes-on-virustotal-matches/\n",
+                    "votes": {
+                        "positive": 0,
+                        "abuse": 0,
+                        "negative": 0
+                    },
+                    "html": "YARA Signature Match - THOR APT Scanner<br /><br />RULE: MAL_APK_LNX_Archive_Android_NSO_Pegasus_Jul21_2<br />RULE_SET: Livehunt - Default27 Indicators <br />RULE_TYPE: VALHALLA rule feed only \u26a1<br />RULE_LINK: https://valhalla.nextron-systems.com/info/rule/MAL_APK_LNX_Archive_Android_NSO_Pegasus_Jul21_2<br />DESCRIPTION: Detects NSO Pegasus samples<br />REFERENCE: https://twitter.com/vxunderground/status/1418207502974525441<br />RULE_AUTHOR: Florian Roth<br /><br />Detection Timestamp: 2022-11-23 16:07<br />AV Detection Ratio: \ud83d\udfe2 29 / 67<br /><br />Use these tags to search for similar matches: #apk #lnx #archive #nso #pegasus #mal_apk_lnx_archive_android_nso_pegasus_jul21_2<br />More information: https://www.nextron-systems.com/notes-on-virustotal-matches/<br />",
+                    "tags": [
+                        "apk",
+                        "lnx",
+                        "archive",
+                        "nso",
+                        "pegasus",
+                        "mal_apk_lnx_archive_android_nso_pegasus_jul21_2"
+                    ]
+                },
+                "type": "comment",
+                "id": "f-955c8716217bd50cf8683364126cca490c51d886bc61f5d456b72473bf3487b1-88a7b618",
+                "links": {
+                    "self": "https://www.virustotal.com/api/v3/comments/f-955c8716217bd50cf8683364126cca490c51d886bc61f5d456b72473bf3487b1-88a7b618"
+                }
+            },
+            {
+                "attributes": {
+                    "date": 1657897416,
+                    "text": "YARA Signature Match - THOR APT Scanner\n\nRULE: MAL_APK_LNX_Archive_Android_NSO_Pegasus_Jul21_2\nRULE_SET: Livehunt - Default5 Indicators \nRULE_TYPE: VALHALLA rule feed only \u26a1\nRULE_LINK: https://valhalla.nextron-systems.com/info/rule/MAL_APK_LNX_Archive_Android_NSO_Pegasus_Jul21_2\nDESCRIPTION: Detects NSO Pegasus samples\nREFERENCE: https://twitter.com/vxunderground/status/1418207502974525441\nRULE_AUTHOR: Florian Roth\n\nDetection Timestamp: 2022-07-15 15:09\nAV Detection Ratio: \ud83d\udfe2 29 / 65\n\nUse these tags to search for similar matches: #apk #lnx #archive #nso #pegasus #mal_apk_lnx_archive_android_nso_pegasus_jul21_2\nMore information: https://www.nextron-systems.com/notes-on-virustotal-matches/\n",
+                    "votes": {
+                        "positive": 0,
+                        "abuse": 0,
+                        "negative": 0
+                    },
+                    "html": "YARA Signature Match - THOR APT Scanner<br /><br />RULE: MAL_APK_LNX_Archive_Android_NSO_Pegasus_Jul21_2<br />RULE_SET: Livehunt - Default5 Indicators <br />RULE_TYPE: VALHALLA rule feed only \u26a1<br />RULE_LINK: https://valhalla.nextron-systems.com/info/rule/MAL_APK_LNX_Archive_Android_NSO_Pegasus_Jul21_2<br />DESCRIPTION: Detects NSO Pegasus samples<br />REFERENCE: https://twitter.com/vxunderground/status/1418207502974525441<br />RULE_AUTHOR: Florian Roth<br /><br />Detection Timestamp: 2022-07-15 15:09<br />AV Detection Ratio: \ud83d\udfe2 29 / 65<br /><br />Use these tags to search for similar matches: #apk #lnx #archive #nso #pegasus #mal_apk_lnx_archive_android_nso_pegasus_jul21_2<br />More information: https://www.nextron-systems.com/notes-on-virustotal-matches/<br />",
+                    "tags": [
+                        "apk",
+                        "lnx",
+                        "archive",
+                        "nso",
+                        "pegasus",
+                        "mal_apk_lnx_archive_android_nso_pegasus_jul21_2"
+                    ]
+                },
+                "type": "comment",
+                "id": "f-4bdf706507c48d2f0886825f651417f4b2281d3b73aa056b3c4e40d88c7beb81-b9ed4331",
+                "links": {
+                    "self": "https://www.virustotal.com/api/v3/comments/f-4bdf706507c48d2f0886825f651417f4b2281d3b73aa056b3c4e40d88c7beb81-b9ed4331"
+                }
+            },
+            {
+                "attributes": {
+                    "date": 1657897416,
+                    "text": "YARA Signature Match - THOR APT Scanner\n\nRULE: MAL_APK_LNX_Android_NSO_Pegasus_Jul21_1\nRULE_SET: Livehunt - Default5 Indicators \nRULE_TYPE: VALHALLA rule feed only \u26a1\nRULE_LINK: https://valhalla.nextron-systems.com/info/rule/MAL_APK_LNX_Android_NSO_Pegasus_Jul21_1\nDESCRIPTION: Detects NSO Pegasus samples - file inject\nREFERENCE: https://twitter.com/vxunderground/status/1418207502974525441\nRULE_AUTHOR: Florian Roth\n\nDetection Timestamp: 2022-07-15 15:09\nAV Detection Ratio: \ud83d\udd34 0 / 59\n\nUse these tags to search for similar matches: #apk #lnx #nso #pegasus #mal_apk_lnx_android_nso_pegasus_jul21_1\nMore information: https://www.nextron-systems.com/notes-on-virustotal-matches/\n",
+                    "votes": {
+                        "positive": 0,
+                        "abuse": 0,
+                        "negative": 0
+                    },
+                    "html": "YARA Signature Match - THOR APT Scanner<br /><br />RULE: MAL_APK_LNX_Android_NSO_Pegasus_Jul21_1<br />RULE_SET: Livehunt - Default5 Indicators <br />RULE_TYPE: VALHALLA rule feed only \u26a1<br />RULE_LINK: https://valhalla.nextron-systems.com/info/rule/MAL_APK_LNX_Android_NSO_Pegasus_Jul21_1<br />DESCRIPTION: Detects NSO Pegasus samples - file inject<br />REFERENCE: https://twitter.com/vxunderground/status/1418207502974525441<br />RULE_AUTHOR: Florian Roth<br /><br />Detection Timestamp: 2022-07-15 15:09<br />AV Detection Ratio: \ud83d\udd34 0 / 59<br /><br />Use these tags to search for similar matches: #apk #lnx #nso #pegasus #mal_apk_lnx_android_nso_pegasus_jul21_1<br />More information: https://www.nextron-systems.com/notes-on-virustotal-matches/<br />",
+                    "tags": [
+                        "apk",
+                        "lnx",
+                        "nso",
+                        "pegasus",
+                        "mal_apk_lnx_android_nso_pegasus_jul21_1"
+                    ]
+                },
+                "type": "comment",
+                "id": "f-3d616c7144641f0f5f2588fb0427abf551f2e64f814d900d140a10d2a0440fad-e4b42e45",
+                "links": {
+                    "self": "https://www.virustotal.com/api/v3/comments/f-3d616c7144641f0f5f2588fb0427abf551f2e64f814d900d140a10d2a0440fad-e4b42e45"
+                }
+            },
+            {
+                "attributes": {
+                    "date": 1656836028,
+                    "text": "YARA Signature Match - THOR APT Scanner\n\nRULE: MAL_APK_LNX_Android_NSO_Pegasus_Jul21_1\nRULE_SET: Livehunt - Default5 Indicators \nRULE_TYPE: VALHALLA rule feed only \u26a1\nRULE_LINK: https://valhalla.nextron-systems.com/info/rule/MAL_APK_LNX_Android_NSO_Pegasus_Jul21_1\nDESCRIPTION: Detects NSO Pegasus samples - file inject\nREFERENCE: https://twitter.com/vxunderground/status/1418207502974525441\nRULE_AUTHOR: Florian Roth\n\nDetection Timestamp: 2022-07-03 08:19\nAV Detection Ratio: \ud83d\udfe1 12 / 60\n\nUse these tags to search for similar matches: #apk #lnx #nso #pegasus #mal_apk_lnx_android_nso_pegasus_jul21_1\nMore information: https://www.nextron-systems.com/notes-on-virustotal-matches/\n",
+                    "votes": {
+                        "positive": 0,
+                        "abuse": 0,
+                        "negative": 0
+                    },
+                    "html": "YARA Signature Match - THOR APT Scanner<br /><br />RULE: MAL_APK_LNX_Android_NSO_Pegasus_Jul21_1<br />RULE_SET: Livehunt - Default5 Indicators <br />RULE_TYPE: VALHALLA rule feed only \u26a1<br />RULE_LINK: https://valhalla.nextron-systems.com/info/rule/MAL_APK_LNX_Android_NSO_Pegasus_Jul21_1<br />DESCRIPTION: Detects NSO Pegasus samples - file inject<br />REFERENCE: https://twitter.com/vxunderground/status/1418207502974525441<br />RULE_AUTHOR: Florian Roth<br /><br />Detection Timestamp: 2022-07-03 08:19<br />AV Detection Ratio: \ud83d\udfe1 12 / 60<br /><br />Use these tags to search for similar matches: #apk #lnx #nso #pegasus #mal_apk_lnx_android_nso_pegasus_jul21_1<br />More information: https://www.nextron-systems.com/notes-on-virustotal-matches/<br />",
+                    "tags": [
+                        "apk",
+                        "lnx",
+                        "nso",
+                        "pegasus",
+                        "mal_apk_lnx_android_nso_pegasus_jul21_1"
+                    ]
+                },
+                "type": "comment",
+                "id": "f-8c2a4dad46c6cab872b607267da1651336585163db46fc4e59e71c9fadb9f79c-f7e111ea",
+                "links": {
+                    "self": "https://www.virustotal.com/api/v3/comments/f-8c2a4dad46c6cab872b607267da1651336585163db46fc4e59e71c9fadb9f79c-f7e111ea"
+                }
+            },
+            {
+                "attributes": {
+                    "date": 1656199588,
+                    "text": "YARA Signature Match - THOR APT Scanner\n\nRULE: MAL_APK_LNX_Archive_Android_NSO_Pegasus_Jul21_2\nRULE_SET: Livehunt - Default5 Indicators \nRULE_TYPE: VALHALLA rule feed only \u26a1\nRULE_LINK: https://valhalla.nextron-systems.com/info/rule/MAL_APK_LNX_Archive_Android_NSO_Pegasus_Jul21_2\nDESCRIPTION: Detects NSO Pegasus samples\nREFERENCE: https://twitter.com/vxunderground/status/1418207502974525441\nRULE_AUTHOR: Florian Roth\n\nDetection Timestamp: 2022-06-25 23:32\nAV Detection Ratio: \ud83d\udfe1 23 / 61\n\nUse these tags to search for similar matches: #apk #lnx #archive #nso #pegasus #mal_apk_lnx_archive_android_nso_pegasus_jul21_2\nMore information: https://www.nextron-systems.com/notes-on-virustotal-matches/\n",
+                    "votes": {
+                        "positive": 0,
+                        "abuse": 0,
+                        "negative": 0
+                    },
+                    "html": "YARA Signature Match - THOR APT Scanner<br /><br />RULE: MAL_APK_LNX_Archive_Android_NSO_Pegasus_Jul21_2<br />RULE_SET: Livehunt - Default5 Indicators <br />RULE_TYPE: VALHALLA rule feed only \u26a1<br />RULE_LINK: https://valhalla.nextron-systems.com/info/rule/MAL_APK_LNX_Archive_Android_NSO_Pegasus_Jul21_2<br />DESCRIPTION: Detects NSO Pegasus samples<br />REFERENCE: https://twitter.com/vxunderground/status/1418207502974525441<br />RULE_AUTHOR: Florian Roth<br /><br />Detection Timestamp: 2022-06-25 23:32<br />AV Detection Ratio: \ud83d\udfe1 23 / 61<br /><br />Use these tags to search for similar matches: #apk #lnx #archive #nso #pegasus #mal_apk_lnx_archive_android_nso_pegasus_jul21_2<br />More information: https://www.nextron-systems.com/notes-on-virustotal-matches/<br />",
+                    "tags": [
+                        "apk",
+                        "lnx",
+                        "archive",
+                        "nso",
+                        "pegasus",
+                        "mal_apk_lnx_archive_android_nso_pegasus_jul21_2"
+                    ]
+                },
+                "type": "comment",
+                "id": "f-59d36d03fdcab11e60c89f01eac33af97da93ad023ee5d25bbe1f950c0843b32-2b4b5f07",
+                "links": {
+                    "self": "https://www.virustotal.com/api/v3/comments/f-59d36d03fdcab11e60c89f01eac33af97da93ad023ee5d25bbe1f950c0843b32-2b4b5f07"
+                }
+            }
+        ],
+        "links": {
+            "self": "https://www.virustotal.com/api/v3/search?query=pegasus",
+            "next": "https://www.virustotal.com/api/v3/search?cursor=CtIBChEKBGRhdGUSCQjav4eh4Mn4AhK4AWoRc352aXJ1c3RvdGFsY2xvdWRyogELEgZTYW1wbGUiQDU5ZDM2ZDAzZmRjYWIxMWU2MGM4OWYwMWVhYzMzYWY5N2RhOTNhZDAyM2VlNWQyNWJiZTFmOTUwYzA4NDNiMzIMCxIHQ29tbWVudCJJNTlkMzZkMDNmZGNhYjExZTYwYzg5ZjAxZWFjMzNhZjk3ZGE5M2FkMDIzZWU1ZDI1YmJlMWY5NTBjMDg0M2IzMi0yYjRiNWYwNwwYACAB&query=pegasus"
+        }
+    }
+]

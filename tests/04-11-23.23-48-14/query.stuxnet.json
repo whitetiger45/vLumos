@@ -1,0 +1,233 @@
+[
+    {
+        "meta": {
+            "cursor": "CtIBChEKBGRhdGUSCQjT0vTjyIL-AhK4AWoRc352aXJ1c3RvdGFsY2xvdWRyogELEgZTYW1wbGUiQDA3ZTJjNmQ4NjUxOThkMWUxOTc3YmNmYWVlYzVhZDk4MzIxMGQ3NGZmZDIxMWY0NzVhOGI2OTc1ZWJiOTFjMTkMCxIHQ29tbWVudCJJMDdlMmM2ZDg2NTE5OGQxZTE5NzdiY2ZhZWVjNWFkOTgzMjEwZDc0ZmZkMjExZjQ3NWE4YjY5NzVlYmI5MWMxOS0wODViYjNmMQwYACAB"
+        },
+        "data": [
+            {
+                "attributes": {
+                    "date": 1681117351,
+                    "text": "YARA Signature Match - THOR APT Scanner\n\nRULE: APT_MAL_Stuxnet_Apr21_2\nRULE_SET: Livehunt - Default84 Indicators \nRULE_TYPE: VALHALLA rule feed only \u26a1\nRULE_LINK: https://valhalla.nextron-systems.com/info/rule/APT_MAL_Stuxnet_Apr21_2\nDESCRIPTION: Detects Stuxnet samples\nRULE_AUTHOR: Florian Roth\n\nDetection Timestamp: 2023-04-10 09:07\nAV Detection Ratio: \ud83d\udfe2 58 / 70\n\nUse these tags to search for similar matches: #apt #stuxnet #apt_mal_stuxnet_apr21_2\nMore information: https://www.nextron-systems.com/notes-on-virustotal-matches/\n",
+                    "votes": {
+                        "positive": 0,
+                        "abuse": 0,
+                        "negative": 0
+                    },
+                    "html": "YARA Signature Match - THOR APT Scanner<br /><br />RULE: APT_MAL_Stuxnet_Apr21_2<br />RULE_SET: Livehunt - Default84 Indicators <br />RULE_TYPE: VALHALLA rule feed only \u26a1<br />RULE_LINK: https://valhalla.nextron-systems.com/info/rule/APT_MAL_Stuxnet_Apr21_2<br />DESCRIPTION: Detects Stuxnet samples<br />RULE_AUTHOR: Florian Roth<br /><br />Detection Timestamp: 2023-04-10 09:07<br />AV Detection Ratio: \ud83d\udfe2 58 / 70<br /><br />Use these tags to search for similar matches: #apt #stuxnet #apt_mal_stuxnet_apr21_2<br />More information: https://www.nextron-systems.com/notes-on-virustotal-matches/<br />",
+                    "tags": [
+                        "apt",
+                        "stuxnet",
+                        "apt_mal_stuxnet_apr21_2"
+                    ]
+                },
+                "type": "comment",
+                "id": "f-fcbe2d7e670904449091d6da014f678488933985e230c528cb299b1db449284a-6d3a85f9",
+                "links": {
+                    "self": "https://www.virustotal.com/api/v3/comments/f-fcbe2d7e670904449091d6da014f678488933985e230c528cb299b1db449284a-6d3a85f9"
+                }
+            },
+            {
+                "attributes": {
+                    "date": 1680735688,
+                    "text": "YARA Signature Match - THOR APT Scanner\n\nRULE: APT_StuxNet_Malware_1\nRULE_SET: Livehunt - Default54 Indicators \nRULE_TYPE: VALHALLA rule feed only \u26a1\nRULE_LINK: https://valhalla.nextron-systems.com/info/rule/APT_StuxNet_Malware_1\nDESCRIPTION: Stuxnet Sample - file malware.exe\nRULE_AUTHOR: Florian Roth\n\nDetection Timestamp: 2023-04-05 23:06\nAV Detection Ratio: \ud83d\udfe2 57 / 70\n\nUse these tags to search for similar matches: #apt #stuxnet #apt_stuxnet_malware_1\nMore information: https://www.nextron-systems.com/notes-on-virustotal-matches/\n",
+                    "votes": {
+                        "positive": 0,
+                        "abuse": 0,
+                        "negative": 0
+                    },
+                    "html": "YARA Signature Match - THOR APT Scanner<br /><br />RULE: APT_StuxNet_Malware_1<br />RULE_SET: Livehunt - Default54 Indicators <br />RULE_TYPE: VALHALLA rule feed only \u26a1<br />RULE_LINK: https://valhalla.nextron-systems.com/info/rule/APT_StuxNet_Malware_1<br />DESCRIPTION: Stuxnet Sample - file malware.exe<br />RULE_AUTHOR: Florian Roth<br /><br />Detection Timestamp: 2023-04-05 23:06<br />AV Detection Ratio: \ud83d\udfe2 57 / 70<br /><br />Use these tags to search for similar matches: #apt #stuxnet #apt_stuxnet_malware_1<br />More information: https://www.nextron-systems.com/notes-on-virustotal-matches/<br />",
+                    "tags": [
+                        "apt",
+                        "stuxnet",
+                        "apt_stuxnet_malware_1"
+                    ]
+                },
+                "type": "comment",
+                "id": "f-a9775b8bec11cf8fa364efa5df17d50dc2cec06f3a09b94410725e2faa1db402-a8641fd1",
+                "links": {
+                    "self": "https://www.virustotal.com/api/v3/comments/f-a9775b8bec11cf8fa364efa5df17d50dc2cec06f3a09b94410725e2faa1db402-a8641fd1"
+                }
+            },
+            {
+                "attributes": {
+                    "date": 1680735688,
+                    "text": "YARA Signature Match - THOR APT Scanner\n\nRULE: APT_MAL_Stuxnet_Apr21_2\nRULE_SET: Livehunt - Default84 Indicators \nRULE_TYPE: VALHALLA rule feed only \u26a1\nRULE_LINK: https://valhalla.nextron-systems.com/info/rule/APT_MAL_Stuxnet_Apr21_2\nDESCRIPTION: Detects Stuxnet samples\nRULE_AUTHOR: Florian Roth\n\nDetection Timestamp: 2023-04-05 23:06\nAV Detection Ratio: \ud83d\udfe2 57 / 70\n\nUse these tags to search for similar matches: #apt #stuxnet #apt_mal_stuxnet_apr21_2\nMore information: https://www.nextron-systems.com/notes-on-virustotal-matches/\n",
+                    "votes": {
+                        "positive": 0,
+                        "abuse": 0,
+                        "negative": 0
+                    },
+                    "html": "YARA Signature Match - THOR APT Scanner<br /><br />RULE: APT_MAL_Stuxnet_Apr21_2<br />RULE_SET: Livehunt - Default84 Indicators <br />RULE_TYPE: VALHALLA rule feed only \u26a1<br />RULE_LINK: https://valhalla.nextron-systems.com/info/rule/APT_MAL_Stuxnet_Apr21_2<br />DESCRIPTION: Detects Stuxnet samples<br />RULE_AUTHOR: Florian Roth<br /><br />Detection Timestamp: 2023-04-05 23:06<br />AV Detection Ratio: \ud83d\udfe2 57 / 70<br /><br />Use these tags to search for similar matches: #apt #stuxnet #apt_mal_stuxnet_apr21_2<br />More information: https://www.nextron-systems.com/notes-on-virustotal-matches/<br />",
+                    "tags": [
+                        "apt",
+                        "stuxnet",
+                        "apt_mal_stuxnet_apr21_2"
+                    ]
+                },
+                "type": "comment",
+                "id": "f-a9775b8bec11cf8fa364efa5df17d50dc2cec06f3a09b94410725e2faa1db402-a3ddaef2",
+                "links": {
+                    "self": "https://www.virustotal.com/api/v3/comments/f-a9775b8bec11cf8fa364efa5df17d50dc2cec06f3a09b94410725e2faa1db402-a3ddaef2"
+                }
+            },
+            {
+                "attributes": {
+                    "date": 1680480112,
+                    "text": "YARA Signature Match - THOR APT Scanner\n\nRULE: APT_MAL_Stuxnet_Apr21_1\nRULE_SET: Livehunt - Default83 Indicators \nRULE_TYPE: VALHALLA rule feed only \u26a1\nRULE_LINK: https://valhalla.nextron-systems.com/info/rule/APT_MAL_Stuxnet_Apr21_1\nDESCRIPTION: Detects Stuxnet DLL files\nRULE_AUTHOR: Florian Roth\n\nDetection Timestamp: 2023-04-03 00:07\nAV Detection Ratio: \ud83d\udfe2 50 / 63\n\nUse these tags to search for similar matches: #apt #stuxnet #apt_mal_stuxnet_apr21_1\nMore information: https://www.nextron-systems.com/notes-on-virustotal-matches/\n",
+                    "votes": {
+                        "positive": 0,
+                        "abuse": 0,
+                        "negative": 0
+                    },
+                    "html": "YARA Signature Match - THOR APT Scanner<br /><br />RULE: APT_MAL_Stuxnet_Apr21_1<br />RULE_SET: Livehunt - Default83 Indicators <br />RULE_TYPE: VALHALLA rule feed only \u26a1<br />RULE_LINK: https://valhalla.nextron-systems.com/info/rule/APT_MAL_Stuxnet_Apr21_1<br />DESCRIPTION: Detects Stuxnet DLL files<br />RULE_AUTHOR: Florian Roth<br /><br />Detection Timestamp: 2023-04-03 00:07<br />AV Detection Ratio: \ud83d\udfe2 50 / 63<br /><br />Use these tags to search for similar matches: #apt #stuxnet #apt_mal_stuxnet_apr21_1<br />More information: https://www.nextron-systems.com/notes-on-virustotal-matches/<br />",
+                    "tags": [
+                        "apt",
+                        "stuxnet",
+                        "apt_mal_stuxnet_apr21_1"
+                    ]
+                },
+                "type": "comment",
+                "id": "f-ce75ee24a72541212130ab6bfadbdb8112d436b8f3e7b8a21aaf01175af9794e-926dc632",
+                "links": {
+                    "self": "https://www.virustotal.com/api/v3/comments/f-ce75ee24a72541212130ab6bfadbdb8112d436b8f3e7b8a21aaf01175af9794e-926dc632"
+                }
+            },
+            {
+                "attributes": {
+                    "date": 1680146756,
+                    "text": "YARA Signature Match - THOR APT Scanner\n\nRULE: APT_StuxNet_Malware_1\nRULE_SET: Livehunt - Default54 Indicators \nRULE_TYPE: VALHALLA rule feed only \u26a1\nRULE_LINK: https://valhalla.nextron-systems.com/info/rule/APT_StuxNet_Malware_1\nDESCRIPTION: Stuxnet Sample - file malware.exe\nRULE_AUTHOR: Florian Roth\n\nDetection Timestamp: 2023-03-30 03:31\nAV Detection Ratio: \ud83d\udfe2 36 / 68\n\nUse these tags to search for similar matches: #apt #stuxnet #apt_stuxnet_malware_1\nMore information: https://www.nextron-systems.com/notes-on-virustotal-matches/\n",
+                    "votes": {
+                        "positive": 0,
+                        "abuse": 0,
+                        "negative": 0
+                    },
+                    "html": "YARA Signature Match - THOR APT Scanner<br /><br />RULE: APT_StuxNet_Malware_1<br />RULE_SET: Livehunt - Default54 Indicators <br />RULE_TYPE: VALHALLA rule feed only \u26a1<br />RULE_LINK: https://valhalla.nextron-systems.com/info/rule/APT_StuxNet_Malware_1<br />DESCRIPTION: Stuxnet Sample - file malware.exe<br />RULE_AUTHOR: Florian Roth<br /><br />Detection Timestamp: 2023-03-30 03:31<br />AV Detection Ratio: \ud83d\udfe2 36 / 68<br /><br />Use these tags to search for similar matches: #apt #stuxnet #apt_stuxnet_malware_1<br />More information: https://www.nextron-systems.com/notes-on-virustotal-matches/<br />",
+                    "tags": [
+                        "apt",
+                        "stuxnet",
+                        "apt_stuxnet_malware_1"
+                    ]
+                },
+                "type": "comment",
+                "id": "f-639eac66f009591856541bffc5a455cebe3f7454984133be1cd93f4c440f3d94-98dc8f5a",
+                "links": {
+                    "self": "https://www.virustotal.com/api/v3/comments/f-639eac66f009591856541bffc5a455cebe3f7454984133be1cd93f4c440f3d94-98dc8f5a"
+                }
+            },
+            {
+                "attributes": {
+                    "date": 1680145311,
+                    "text": "YARA Signature Match - THOR APT Scanner\n\nRULE: APT_StuxNet_Malware_1\nRULE_SET: Livehunt - Default54 Indicators \nRULE_TYPE: VALHALLA rule feed only \u26a1\nRULE_LINK: https://valhalla.nextron-systems.com/info/rule/APT_StuxNet_Malware_1\nDESCRIPTION: Stuxnet Sample - file malware.exe\nRULE_AUTHOR: Florian Roth\n\nDetection Timestamp: 2023-03-30 03:07\nAV Detection Ratio: \ud83d\udfe2 39 / 69\n\nUse these tags to search for similar matches: #apt #stuxnet #apt_stuxnet_malware_1\nMore information: https://www.nextron-systems.com/notes-on-virustotal-matches/\n",
+                    "votes": {
+                        "positive": 0,
+                        "abuse": 0,
+                        "negative": 0
+                    },
+                    "html": "YARA Signature Match - THOR APT Scanner<br /><br />RULE: APT_StuxNet_Malware_1<br />RULE_SET: Livehunt - Default54 Indicators <br />RULE_TYPE: VALHALLA rule feed only \u26a1<br />RULE_LINK: https://valhalla.nextron-systems.com/info/rule/APT_StuxNet_Malware_1<br />DESCRIPTION: Stuxnet Sample - file malware.exe<br />RULE_AUTHOR: Florian Roth<br /><br />Detection Timestamp: 2023-03-30 03:07<br />AV Detection Ratio: \ud83d\udfe2 39 / 69<br /><br />Use these tags to search for similar matches: #apt #stuxnet #apt_stuxnet_malware_1<br />More information: https://www.nextron-systems.com/notes-on-virustotal-matches/<br />",
+                    "tags": [
+                        "apt",
+                        "stuxnet",
+                        "apt_stuxnet_malware_1"
+                    ]
+                },
+                "type": "comment",
+                "id": "f-254497cfca823a6c106d4fe15a636d2bcf660e90e9baabe365ac7966ea4515be-b651fc5f",
+                "links": {
+                    "self": "https://www.virustotal.com/api/v3/comments/f-254497cfca823a6c106d4fe15a636d2bcf660e90e9baabe365ac7966ea4515be-b651fc5f"
+                }
+            },
+            {
+                "attributes": {
+                    "date": 1680142913,
+                    "text": "YARA Signature Match - THOR APT Scanner\n\nRULE: APT_StuxNet_Malware_1\nRULE_SET: Livehunt - Default54 Indicators \nRULE_TYPE: VALHALLA rule feed only \u26a1\nRULE_LINK: https://valhalla.nextron-systems.com/info/rule/APT_StuxNet_Malware_1\nDESCRIPTION: Stuxnet Sample - file malware.exe\nRULE_AUTHOR: Florian Roth\n\nDetection Timestamp: 2023-03-30 02:27\nAV Detection Ratio: \ud83d\udfe0 4 / 67\n\nUse these tags to search for similar matches: #apt #stuxnet #apt_stuxnet_malware_1\nMore information: https://www.nextron-systems.com/notes-on-virustotal-matches/\n",
+                    "votes": {
+                        "positive": 0,
+                        "abuse": 0,
+                        "negative": 0
+                    },
+                    "html": "YARA Signature Match - THOR APT Scanner<br /><br />RULE: APT_StuxNet_Malware_1<br />RULE_SET: Livehunt - Default54 Indicators <br />RULE_TYPE: VALHALLA rule feed only \u26a1<br />RULE_LINK: https://valhalla.nextron-systems.com/info/rule/APT_StuxNet_Malware_1<br />DESCRIPTION: Stuxnet Sample - file malware.exe<br />RULE_AUTHOR: Florian Roth<br /><br />Detection Timestamp: 2023-03-30 02:27<br />AV Detection Ratio: \ud83d\udfe0 4 / 67<br /><br />Use these tags to search for similar matches: #apt #stuxnet #apt_stuxnet_malware_1<br />More information: https://www.nextron-systems.com/notes-on-virustotal-matches/<br />",
+                    "tags": [
+                        "apt",
+                        "stuxnet",
+                        "apt_stuxnet_malware_1"
+                    ]
+                },
+                "type": "comment",
+                "id": "f-7b655de27d6034d0187f6e79bef52aadbba13d680e054689d6df9d3b3c74dcba-7835a155",
+                "links": {
+                    "self": "https://www.virustotal.com/api/v3/comments/f-7b655de27d6034d0187f6e79bef52aadbba13d680e054689d6df9d3b3c74dcba-7835a155"
+                }
+            },
+            {
+                "attributes": {
+                    "date": 1680142545,
+                    "text": "YARA Signature Match - THOR APT Scanner\n\nRULE: APT_StuxNet_Malware_1\nRULE_SET: Livehunt - Default54 Indicators \nRULE_TYPE: VALHALLA rule feed only \u26a1\nRULE_LINK: https://valhalla.nextron-systems.com/info/rule/APT_StuxNet_Malware_1\nDESCRIPTION: Stuxnet Sample - file malware.exe\nRULE_AUTHOR: Florian Roth\n\nDetection Timestamp: 2023-03-30 02:21\nAV Detection Ratio: \ud83d\udfe0 3 / 68\n\nUse these tags to search for similar matches: #apt #stuxnet #apt_stuxnet_malware_1\nMore information: https://www.nextron-systems.com/notes-on-virustotal-matches/\n",
+                    "votes": {
+                        "positive": 0,
+                        "abuse": 0,
+                        "negative": 0
+                    },
+                    "html": "YARA Signature Match - THOR APT Scanner<br /><br />RULE: APT_StuxNet_Malware_1<br />RULE_SET: Livehunt - Default54 Indicators <br />RULE_TYPE: VALHALLA rule feed only \u26a1<br />RULE_LINK: https://valhalla.nextron-systems.com/info/rule/APT_StuxNet_Malware_1<br />DESCRIPTION: Stuxnet Sample - file malware.exe<br />RULE_AUTHOR: Florian Roth<br /><br />Detection Timestamp: 2023-03-30 02:21<br />AV Detection Ratio: \ud83d\udfe0 3 / 68<br /><br />Use these tags to search for similar matches: #apt #stuxnet #apt_stuxnet_malware_1<br />More information: https://www.nextron-systems.com/notes-on-virustotal-matches/<br />",
+                    "tags": [
+                        "apt",
+                        "stuxnet",
+                        "apt_stuxnet_malware_1"
+                    ]
+                },
+                "type": "comment",
+                "id": "f-0e6965da962f7e7525aeccc4810da32cdeed566cc8be5b13ab1882374f492f53-ff8c88fb",
+                "links": {
+                    "self": "https://www.virustotal.com/api/v3/comments/f-0e6965da962f7e7525aeccc4810da32cdeed566cc8be5b13ab1882374f492f53-ff8c88fb"
+                }
+            },
+            {
+                "attributes": {
+                    "date": 1680142301,
+                    "text": "YARA Signature Match - THOR APT Scanner\n\nRULE: APT_StuxNet_Malware_1\nRULE_SET: Livehunt - Default54 Indicators \nRULE_TYPE: VALHALLA rule feed only \u26a1\nRULE_LINK: https://valhalla.nextron-systems.com/info/rule/APT_StuxNet_Malware_1\nDESCRIPTION: Stuxnet Sample - file malware.exe\nRULE_AUTHOR: Florian Roth\n\nDetection Timestamp: 2023-03-30 02:17\nAV Detection Ratio: \ud83d\udfe0 3 / 68\n\nUse these tags to search for similar matches: #apt #stuxnet #apt_stuxnet_malware_1\nMore information: https://www.nextron-systems.com/notes-on-virustotal-matches/\n",
+                    "votes": {
+                        "positive": 0,
+                        "abuse": 0,
+                        "negative": 0
+                    },
+                    "html": "YARA Signature Match - THOR APT Scanner<br /><br />RULE: APT_StuxNet_Malware_1<br />RULE_SET: Livehunt - Default54 Indicators <br />RULE_TYPE: VALHALLA rule feed only \u26a1<br />RULE_LINK: https://valhalla.nextron-systems.com/info/rule/APT_StuxNet_Malware_1<br />DESCRIPTION: Stuxnet Sample - file malware.exe<br />RULE_AUTHOR: Florian Roth<br /><br />Detection Timestamp: 2023-03-30 02:17<br />AV Detection Ratio: \ud83d\udfe0 3 / 68<br /><br />Use these tags to search for similar matches: #apt #stuxnet #apt_stuxnet_malware_1<br />More information: https://www.nextron-systems.com/notes-on-virustotal-matches/<br />",
+                    "tags": [
+                        "apt",
+                        "stuxnet",
+                        "apt_stuxnet_malware_1"
+                    ]
+                },
+                "type": "comment",
+                "id": "f-4f8b90abb9719d7a67528c85b1b64951c9fd3a547d738ab9d19425296a38b8b2-4a579917",
+                "links": {
+                    "self": "https://www.virustotal.com/api/v3/comments/f-4f8b90abb9719d7a67528c85b1b64951c9fd3a547d738ab9d19425296a38b8b2-4a579917"
+                }
+            },
+            {
+                "attributes": {
+                    "date": 1680142023,
+                    "text": "YARA Signature Match - THOR APT Scanner\n\nRULE: APT_StuxNet_Malware_1\nRULE_SET: Livehunt - Default54 Indicators \nRULE_TYPE: VALHALLA rule feed only \u26a1\nRULE_LINK: https://valhalla.nextron-systems.com/info/rule/APT_StuxNet_Malware_1\nDESCRIPTION: Stuxnet Sample - file malware.exe\nRULE_AUTHOR: Florian Roth\n\nDetection Timestamp: 2023-03-30 02:12\nAV Detection Ratio: \ud83d\udfe0 3 / 68\n\nUse these tags to search for similar matches: #apt #stuxnet #apt_stuxnet_malware_1\nMore information: https://www.nextron-systems.com/notes-on-virustotal-matches/\n",
+                    "votes": {
+                        "positive": 0,
+                        "abuse": 0,
+                        "negative": 0
+                    },
+                    "html": "YARA Signature Match - THOR APT Scanner<br /><br />RULE: APT_StuxNet_Malware_1<br />RULE_SET: Livehunt - Default54 Indicators <br />RULE_TYPE: VALHALLA rule feed only \u26a1<br />RULE_LINK: https://valhalla.nextron-systems.com/info/rule/APT_StuxNet_Malware_1<br />DESCRIPTION: Stuxnet Sample - file malware.exe<br />RULE_AUTHOR: Florian Roth<br /><br />Detection Timestamp: 2023-03-30 02:12<br />AV Detection Ratio: \ud83d\udfe0 3 / 68<br /><br />Use these tags to search for similar matches: #apt #stuxnet #apt_stuxnet_malware_1<br />More information: https://www.nextron-systems.com/notes-on-virustotal-matches/<br />",
+                    "tags": [
+                        "apt",
+                        "stuxnet",
+                        "apt_stuxnet_malware_1"
+                    ]
+                },
+                "type": "comment",
+                "id": "f-07e2c6d865198d1e1977bcfaeec5ad983210d74ffd211f475a8b6975ebb91c19-085bb3f1",
+                "links": {
+                    "self": "https://www.virustotal.com/api/v3/comments/f-07e2c6d865198d1e1977bcfaeec5ad983210d74ffd211f475a8b6975ebb91c19-085bb3f1"
+                }
+            }
+        ],
+        "links": {
+            "self": "https://www.virustotal.com/api/v3/search?query=stuxnet",
+            "next": "https://www.virustotal.com/api/v3/search?cursor=CtIBChEKBGRhdGUSCQjT0vTjyIL-AhK4AWoRc352aXJ1c3RvdGFsY2xvdWRyogELEgZTYW1wbGUiQDA3ZTJjNmQ4NjUxOThkMWUxOTc3YmNmYWVlYzVhZDk4MzIxMGQ3NGZmZDIxMWY0NzVhOGI2OTc1ZWJiOTFjMTkMCxIHQ29tbWVudCJJMDdlMmM2ZDg2NTE5OGQxZTE5NzdiY2ZhZWVjNWFkOTgzMjEwZDc0ZmZkMjExZjQ3NWE4YjY5NzVlYmI5MWMxOS0wODViYjNmMQwYACAB&query=stuxnet"
+        }
+    }
+]

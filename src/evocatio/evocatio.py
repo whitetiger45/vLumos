@@ -1,16 +1,16 @@
 #!/bin/python
 # -*- coding: utf-8 -*-
-# todo:
-#  - see if (1) sorting keys alphabetically and (2) using a binary search for keys of interest results in improved performance
+import json
+import re
+import traceback
 from pathlib import Path
-import json, traceback
 
-class Evocatio:    
+class Evocatio:
 
-    def __init__(self,maxDepth = 3):        
+    def __init__(self,maxDepth = 6,outputFile=Path("evocatio.loot.json")):
         self._maxDepth = maxDepth
         self._objects = []
-        self._outputFD = Path("evocatio.loot.json")
+        self._outputFD = outputFile
         self.levitasDict = lambda objects: [ d[obj] for d in objects for obj in d ]
         self.levitasList = lambda objects: [ obj for l in objects for obj in l ]
 
@@ -39,13 +39,22 @@ class Evocatio:
             print(f"[x] {traceback.format_exc()}")
         return self._objects
 
-    def readJSON(self,fn):
-        fd = fn; data = None
+    def readJSON(self,_delim="\n",fd=None):
+        data = []
+        if not fd:
+            return data
+        if not _delim:
+            _delim = "\n"
         try:
             if not isinstance(fd,Path):
                 fd = Path(fd)
             if fd.exists() and fd.is_file():
-                data = json.loads(fd.read_text())
+                try:
+                    data = json.loads(fd.read_text())
+                except:
+                    textArray = fd.read_text().split(_delim)
+                    textJSONString = json.dumps(textArray)
+                    data = json.loads(textJSONString)
         except:
             print(f"[x] {traceback.format_exc()}")
         return data
@@ -67,8 +76,13 @@ class Evocatio:
         except:
             print(f"[x] {traceback.format_exc()}")
 
-    def write(self):
+    def write(self,file=None):
         try:
-            self._outputFD.write_text(json.dumps(self._objects,indent=4))
+            if file:
+                if not isinstance(file,Path):
+                    file = Path(file)
+                file.write_text(json.dumps(self._objects,indent=3))
+            else:
+                self._outputFD.write_text(json.dumps(self._objects,indent=3))
         except:
             print(f"[x] {traceback.format_exc()}")
